@@ -1,0 +1,45 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   float amount, discount, discounted, netpayable;
+            	cout<<"Enter Total Shoppping Amount: ";
+            	cin>>amount;
+ 
+ 
+   {
+      if(amount<=1000 && amount>=0)
+  	{
+         cout<<"\n5% discount will be applied on total Shopping amount";
+     	discount = (amount*5)/100;
+     	discounted = amount-discount;
+     	netpayable = amount-discounted;
+     	
+          cout<<"\nThe total amount you need to pay is Php"<<discounted;
+      cout<<"\nYour net payable is Php "<<netpayable;
+ 	}
+  	else if(amount<=4999 && amount>=1001)
+  	{
+         cout<<"\n10% discount will be applied on total Shopping amount";
+     	discount = (amount*10)/100;
+     	discounted = amount-discount;
+     	netpayable = amount-discounted;
+     	
+          cout<<"\nThe total amount you need to pay is Php "<<discounted;
+      cout<<"\nYour net payable is Php "<<netpayable;
+  	}
+  	else if(amount>=5000)
+  	{
+         cout<<"\n15% discount will be applied on total Shopping amount";
+     	discount = (amount*20)/100;
+     	discounted = amount-discount;
+     	netpayable = amount-discounted;
+     	
+          cout<<"\nThe total amount you need to pay is Php"<<discounted;
+      cout<<"\nYour net payable is Php "<<netpayable;
+  	}
+	
+  
+   }
+   return 0;
+}
