@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+string username;
+string password;
+
+	cout<<"Please enter your Username and Password:\n";
+	
+		do {
+			cout << "Username: ";
+			cin >> username;
+			
+			if (username == "Josh")
+			{
+				cout << "Password: ";
+				cin >> password;
+				if (password == "123456")
+				{
+					cout << "Successfully Logged In";
+				}
+				else {
+				cout << "Invalid login, please try again. \n\n";
+				}
+			}
+			else {
+				cout << "Username does not exist. \n\n";
+			}
+	  	}while (username != "admin4" || password != "123456");
+	
+return 0;
+}
+
