@@ -1,0 +1,21 @@
+ #include<iostream>
+using namespace std;
+int main()
+{
+ 
+string capital;
+cout<<"What is the capital of Japan?";
+cin>>capital;
+ 
+if (capital=="Tokyo")
+{cout<<"\nCongratulations!The answer you entered is correct.";
+}
+else if (capital=="tokyo")
+{cout<<"\nCongratulations!The answer you entered is correct.";
+}
+else
+{cout<<"\nOops,The answer you entered is wrong.";
+}
+ 
+return 0;
+}
