@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main ()
+ 
+{
+float age1, age2, age3;
+ 
+cout<<"Input the age of the 1st person:";
+cin>>age1;
+cout<<"Input the age of the 2nd person:";
+cin>>age2;
+cout<<"Input the age of the 3rd person:";
+cin>>age3;
+ 
+if (age1>age3 && age1>age2)
+{cout<<" \n\n1st person is the oldest.";
+}
+else if (age2>age1 && age2>age3)
+{cout<<"\n\n2nd person is the oldest.";
+}
+else if (age3>age1 && age3>age1)
+{cout<<"\n\n3rd person is the oldest.";
+}
+ 
+if (age1<age3 && age1<age2)
+{cout<<"\n1st person is the youngest.";
+}
+else if (age2<age1 && age2<age3)
+{cout<<"\n2nd person is the youngest.";
+}
+else if (age3<age1 && age3<age1)
+{cout<<"\n3rd person is the youngest.";
+}
+return 0;
+}
