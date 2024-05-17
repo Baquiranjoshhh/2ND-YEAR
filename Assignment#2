@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main ()
+ 
+{
+            	float weight1;
+ 
+cout<<"How many pounds does your suitcase weight?:";
+cin>>weight1;
+ 
+if(weight1>50)
+{cout<<"\n\n You will be charged 25$ because of your heavy luggage. Thank you!";
+}
+else {cout<<"\n\n You won't be charge because your luggage is less than 50 pounds. Thank you!";
+}
+ 
+cout<<"\n Thank you for your business.";
+ 
+return 0;
+}
